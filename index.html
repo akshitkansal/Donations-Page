@@ -7,38 +7,98 @@
 
         <!--css-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <title>Help India</title>
+        <link rel="stylesheet" href="css/style.css">
+        <title>TSCG</title>
     </head>
     <body>
-        <div>
-            <header>
-                <nav>
-                    <a href="#">About</a>
-                    <a href="#">History</a>
-                    <a href="#">Contact us</a>
-                </nav>
-            </header>
-                <div>
-                    <div>
-                        <h2>Help us to make our countary a better place for Senior Citizens</h2>
+        <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               <a class="navbar-brand" href="#">The Senior Citizen Group</a>
+               <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto"> 
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="conatiner">
+                <div class="row row-header">
+                    <div class="col-12 text-center heading">
+                        <h2>Help us to make our country a better place for Senior Citizens</h2>
+                        <button class="btn btn-light"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3JUX3CAYVCMKJ&source=url">Donate</a></button>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row row-content" id="about">
+                    <div class="col-12 col-sm-6">
                         <h2>About us</h2>
-                        <p>We are a NGO working towards the betterment of Senior Citizens by helping them with financial aid, health services.
-                            We try to make our country a better place for them. We also motivate them to become self-sufficient by helping them in their ventures
-                            if tehy want to start one.
+                        <p>Senior citizens are one of the most respected people who also matter the most to us. They may be our grandparents, 
+                            someone you see in the park sitting on a bench, someone you help to cross the road, or just someone to whom you go
+                            to feel at home. Their love for us never reduces no matter what we do, but due to multiple different reasons, a lot of
+                            them sometimes do not have a decent place to live or enough earnings/ a support system to rely on and that's where we come in.
+                            We are an NGO working towards the betterment of Senior Citizens by helping them with financial aid, health services, 
+                            recreational facilities to get through the day, and just lots of friends like each other to sit and gossip or have a drink with. 
+                            We also provide them with small employment opportunities if they are willing to work/ want to work, without too much workload or 
+                            stress. We try to provide them with a stress-free, lively, and comfortable environment for them to spend their retirement age in the 
+                            most beautiful way. 
                         </p>
                     </div>
+                    <div class="col-12 col-sm-6 text-centre my-auto">
+                        <img src="images/icon.png" alt="NGO Logo">
+                    </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row row-content" id="history">
+                    <div class="col-12">
                         <h2>History</h2>
-                        <p>The NGO was started in September,2020 by a bunch of young college students who had to do something good for the society.
+                        <p>Started in 2017, we are now a 3-year-old NGO currently inhabiting over 100 senior citizens, making them smile. We started this NGO during
+                            our college years when we got really disheartened seeing a lot of senior citizens not having proper facilities to spend their retirement 
+                            years properly and this sight gave us the motivation to do something for the most loving people of the society. We have been given funding 
+                            from a few companies, and a lot of help has come in different various forms of donation, which now has made our NGO a very beautiful place 
+                            to love in. 
                         </p>
                     </div>
                 </div>
         </div>
-    </body>
+        <footer class="footer">
+            <div class="container" id="contact">
+                <div class="row">             
+                    <div class="col-7 col-sm-5 offset-2">
+                        <h5>Our Address</h5>
+                        <address>
+                          121, Clear Water Area<br>
+                          New Delhi<br>
+                          India<br>
+                          Tel.: +91 98765 43210<br>
+                          Fax: +91 12345 67890<br>
+                          Email: <a href="mailto:">Email</a>
+                       </address>
+                    </div>
+                    <div class="col-12 col-sm-4 align-self-center">
+                        <div class="text-center">
+                            <a href="http://google.com/+">Google+</a>
+                            <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
+                            <a href="http://www.linkedin.com/in/">LinkedIn</a>
+                            <a href="http://twitter.com/">Twitter</a>
+                            <a href="http://youtube.com/">YouTube</a>
+                            <a href="mailto:">Mail</a>
+                        </div>
+                    </div>
+               </div>
+               <div class="row justify-content-center">             
+                    <div class="col-auto">
+                        <p>© Copyright 2020 Akshit Kansal</p>
+                    </div>
+               </div>
+            </div>
+        </footer>
+     <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
 </html>
